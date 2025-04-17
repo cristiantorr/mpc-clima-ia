@@ -63,6 +63,3 @@ const response = await fetchWeather("Madrid");
 
 MIT
 
-## Contribuir
-
-Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir qué te gustaría cambiar.

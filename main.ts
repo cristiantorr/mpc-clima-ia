@@ -1,0 +1,72 @@
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
+import { z } from "zod";
+ 
+// 1. Crear el servidor
+// Es la interfaz principal con el procotolo MCP. Maneja la comunicación entre el cliente y el servidor.
+
+const server = new McpServer({
+  name: 'Demo',
+  version: '1.0.0',
+})
+
+// 2. Definir las herramientas
+// Las herramientas le permite al LLM realizar acciones a través de tu servidor.
+// 
+
+server.tool(
+  'my-weather-tool',
+  'Estamos Averiguando el clima en una ciudad',
+  {
+    city: z.string().describe('City name'),
+  },
+
+  async ({ city }) => {
+    try {
+        const response = await fetch(`https://geocoding-api.open-meteo.com/v1/search?name=${city}&count=1&language=es&format=json`);
+        const data = await response.json();
+       
+        if(!data.results || data.results.length === 0){
+            return {
+                content: [
+                    {
+                        type: 'text',
+                        text: `No se encontró la ciudad ${city}`
+                    }
+                ]
+            };
+        }
+
+        const { latitude, longitude } = data.results[0];
+       
+        const weatherResponse = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,weathercode`);
+        const weatherData = await weatherResponse.json();
+
+        const temperature = weatherData.current.temperature_2m;
+        let weatherDescription = "soleado"; // valor por defecto
+
+        return {
+            content: [
+                {
+                    type: 'text',
+                    text: `El clima en ${city}: ${temperature}°C, ${weatherDescription}`
+                }
+            ]
+        };
+    } catch (error) {
+        return {
+            content: [
+                {
+                    type: 'text',
+                    text: `Error al obtener el clima para ${city}: ${error.message}`
+                }
+            ]
+        };
+    }
+  }
+)
+
+const transport = new StdioServerTransport()
+await server.connect(transport)
+
+

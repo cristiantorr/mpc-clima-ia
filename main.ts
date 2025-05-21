@@ -66,5 +66,7 @@ server.tool(
   }
 );
 
+// 3. Conectar el servidor a la entrada y salida estándar
+// Esto permite que el servidor escuche las peticiones y envíe respuestas a través de la consola.
 const transport = new StdioServerTransport();
 await server.connect(transport);

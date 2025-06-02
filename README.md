@@ -8,10 +8,10 @@ El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos prec
 
 ## Características
 
-- Consulta de temperatura en tiempo real
-- Descripción del estado del clima
-- Soporte para búsqueda de ciudades a nivel mundial
-- Interfaz simple y fácil de usar
+- Consulta de temperatura en tiempo real.
+- Descripción del estado del clima.
+- Soporte para búsqueda de ciudades a nivel mundial.
+- Interfaz simple y fácil de usar.
 
 ## Tecnologías utilizadas
 

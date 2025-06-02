@@ -22,7 +22,7 @@ El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos prec
 
 ## Instalación
 
-1. Clona este repositorio
+1. Clona este repositorio.
 2. Instala las dependencias:
 ```bash
 npm install

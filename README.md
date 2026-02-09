@@ -6,7 +6,7 @@ Este es un servicio de Model Context Protocol (MCP) que proporciona información
 
 El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos precisos y actualizados. Permite consultar la temperatura actual y las condiciones climáticas de cualquier ciudad.
 
-## Características
+## Características proyectos
 
 - Consulta de temperatura en tiempo real.
 - Descripción del estado del clima.

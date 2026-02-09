@@ -36,7 +36,7 @@ Para iniciar el servidor MCP:
 npx tsx main.ts
 ```
 
-### Ejemplo de uso
+### Ejemplo de uso projects
 
 El servicio responde a consultas sobre el clima en cualquier ciudad. Por ejemplo:
 

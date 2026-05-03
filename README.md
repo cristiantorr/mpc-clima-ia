@@ -13,7 +13,7 @@ El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos prec
 - Soporte para búsqueda de ciudades a nivel mundial.
 - Interfaz simple y fácil de usar.
 
-## Tecnologías utilizadas
+## Tecnologías utilizadas notas
 
 - Node.js
 - TypeScript

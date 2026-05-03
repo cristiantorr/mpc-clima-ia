@@ -51,7 +51,7 @@ const response = await fetchWeather("Madrid");
 - [Open-Meteo Geocoding API](https://geocoding-api.open-meteo.com) - Para convertir nombres de ciudades en coordenadas
 - [Open-Meteo Weather API](https://api.open-meteo.com) - Para obtener datos meteorológicos
 
-## Estructura del proyecto
+## Estructura del proyecto notas
 
 ```
 01-start/

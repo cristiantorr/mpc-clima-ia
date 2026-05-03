@@ -20,7 +20,7 @@ El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos prec
 - Model Context Protocol (MCP)
 - Open-Meteo API
 
-## Instalación
+## Instalación notas
 
 1. Clona este repositorio.
 2. Instala las dependencias:

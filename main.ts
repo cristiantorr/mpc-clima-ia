@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-// 1. Crear el servidor
+// 1. Crear el servidor clim
 // Es la interfaz principal con el procotolo MCP. Maneja la comunicación entre el cliente y el servidor.
 
 const server = new McpServer({

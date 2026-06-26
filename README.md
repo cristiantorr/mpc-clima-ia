@@ -1,4 +1,4 @@
-q# Weather MCP Service IA pruebas lm
+q# Weather MCP Service IA pruebas lmm
 
 Este es un servicio de Model Context Protocol (MCP) que proporciona información del clima en tiempo real para diferentes ciudades alrededor del mundo.
 

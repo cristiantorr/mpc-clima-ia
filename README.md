@@ -11,7 +11,7 @@ El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos prec
 - Consulta de temperatura en tiempo real.
 - Descripción del estado del clima.
 - Soporte para búsqueda de ciudades a nivel mundial.
-- Interfaz simple y fácil de usar ia
+- Interfaz simple y fácil de usar 
 
 ## Tecnologías utilizadas notas tmpe ia
 

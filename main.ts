@@ -10,7 +10,7 @@ const server = new McpServer({
   version: "1.1.0",
 });
 
-// 2. Definir las herramientas clima
+// 2. Definir las herramientas clima ia
 // Las herramientas le permite al LLM realizar acciones a través de tu servidor.
 
 server.tool(

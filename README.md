@@ -45,7 +45,7 @@ const response = await fetchWeather("Madrid");
 // Respuesta: "El clima en Madrid: 22°C, soleado"
 ```
 
-## APIs utilizadas ia
+## APIs utilizadas
 
 - [Open-Meteo Geocoding API](https://geocoding-api.open-meteo.com) - Para convertir nombres de ciudades en coordenadas
 - [Open-Meteo Weather API](https://api.open-meteo.com) - Para obtener datos meteorológicos

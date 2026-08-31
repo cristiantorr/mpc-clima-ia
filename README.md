@@ -18,7 +18,7 @@ El servicio utiliza la API de Open-Meteo para obtener datos meteorológicos prec
 - Model Context Protocol (MCP)
 - Open-Meteo API
 
-## Instalación notas tmp
+## Instalación notas tmp ia
 
 1. Clona este repositorio.
 2. Instala las dependencias:

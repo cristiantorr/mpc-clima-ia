@@ -18,7 +18,7 @@ El servicio utiliza la API IA de Open-Meteo para obtener datos meteorológicos p
 - Model Context Protocol (MCP)
 - Open-Meteo API
 
-## Instalación notas tmp 
+## Instalación notas tmp AI
 
 1. Clona este repositorio.
 2. Instala las dependencias:

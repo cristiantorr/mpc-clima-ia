@@ -1,6 +1,6 @@
 # Weather MCP Service agente IA
 
-Este es un servicio de Model Context Protocol (MCP) que proporciona información del clima en tiempo real para diferentes ciudades alrededor del mundo.
+Este es un servicio de Model Context Protocol (MCP) que proporciona información del clima en tiempo real para diferentes ciudades alrededor del mundoñ
 
 ## Descripción mc clima
 El servicio utiliza la API IA de Open-Meteo para obtener datos meteorológicos precisos y actualizados. Permite consultar la temperatura actual y las condiciones climáticas de cualquier ciudad.

@@ -5,7 +5,7 @@ Este es un servicio de Model Context Protocol (MCP) que proporciona información
 ## Descripción mc clima IA
 El servicio utiliza la API IA de Open-Meteo para obtener datos meteorológicos precisos y actualizados. Permite consultar la temperatura actual y las condiciones climáticas de cualquier ciudad.
 
-## Características mc 
+## Características mc IA
 - Consulta de temperatura en tiempo real.
 - Descripción del estado del clima.
 - Soporte para búsqueda de ciudades a nivel mundial.
@@ -13,7 +13,7 @@ El servicio utiliza la API IA de Open-Meteo para obtener datos meteorológicos p
 
 ## Tecnologías utilizadas notas tmpe
 
-- Node.js
+- Node js
 - TypeScript
 - Model Context Protocol (MCP)
 - Open-Meteo API

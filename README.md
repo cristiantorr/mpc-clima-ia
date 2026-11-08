@@ -11,8 +11,7 @@ El servicio utiliza la API IA de Open-Meteo para obtener datos meteorológicos p
 - Soporte para búsqueda de ciudades a nivel mundial.
 - Interfaz simple y fácil de usar
 
-## Tecnologías utilizadas notas tmpe
-
+## Tecnologías utilizadas notas tm
 - Node js
 - TypeScript
 - Model Context Protocol (MCP)
